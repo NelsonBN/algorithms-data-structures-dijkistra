@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstra", "Dijkstra.csproj", "{9F84CB23-C209-4014-88D8-9C60BDCD859A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstra", "distances\Dijkstra.csproj", "{8648FD5B-2132-4D71-949D-ABFA9C911FF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dijkstra (1)", "shortestPath\Dijkstra.csproj", "{A825A3CB-DBAD-4DDB-9E9E-6D9A55D8791D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9F84CB23-C209-4014-88D8-9C60BDCD859A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F84CB23-C209-4014-88D8-9C60BDCD859A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F84CB23-C209-4014-88D8-9C60BDCD859A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F84CB23-C209-4014-88D8-9C60BDCD859A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8648FD5B-2132-4D71-949D-ABFA9C911FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8648FD5B-2132-4D71-949D-ABFA9C911FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8648FD5B-2132-4D71-949D-ABFA9C911FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8648FD5B-2132-4D71-949D-ABFA9C911FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A825A3CB-DBAD-4DDB-9E9E-6D9A55D8791D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A825A3CB-DBAD-4DDB-9E9E-6D9A55D8791D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A825A3CB-DBAD-4DDB-9E9E-6D9A55D8791D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A825A3CB-DBAD-4DDB-9E9E-6D9A55D8791D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FECF7123-1B96-4EC3-920C-0A3981BCB9AB}
+		SolutionGuid = {1742E90C-141A-4FE3-8A9E-BB8977E14512}
 	EndGlobalSection
 EndGlobal
